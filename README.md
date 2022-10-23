@@ -1,6 +1,6 @@
 # Issue-Solver
 
-#
+
 
 ## Intruction
 Designing the project logic and writing code are super fun, but checking schedule and solving the issues are also equally important.
