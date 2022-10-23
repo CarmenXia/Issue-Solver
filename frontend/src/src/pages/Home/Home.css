@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-title {
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+}
+
+#wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+#search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+#ticket-search {
+  display: inline-block;
+  height: 36px;
+  width: 80%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  border-radius: 5px 0 0 0;
+  outline: none;
+  color: #9dbfaf;
+  margin-right: -5px;
+}
+.home-search {
+  vertical-align: 1rem;
+}
+.searchTerm-home:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  margin-top: 0;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+}
+
+/*Resize the wrap to see the search bar change!*/
