@@ -1,0 +1,33 @@
+.update-form {
+  width: 600px;
+  height: 450px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: 0.6s;
+  z-index: 100;
+  position: absolute;
+  top: -500px;
+  left: calc(45% - 180px);
+  background-color: rgb(125, 155, 189);
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+.update-form.show {
+  top: calc(30% - 140px);
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.ticket-update-cancel {
+  cursor: pointer;
+  margin-left: 5%;
+  margin-right: 40%;
+}
