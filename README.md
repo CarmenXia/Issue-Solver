@@ -5,6 +5,7 @@
 ## Intruction
 Designing the project logic and writing code are super fun, but checking schedule and solving the issues are also equally important.
 This Issue-Solver aim to offer a tool for developers to check projects schedule and also recording the bugs. Bugs are important, hope you can not only use it to record your bugs, but also learn from the bugs. Every bug are meaningful!
+#
 [Click here](https://issue-solver.herokuapp.com/tickets) to start!
 #
 
